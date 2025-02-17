@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="../css/accesorios.css" />
+    <link rel="icon" href="../imagenes/Logo_Geocell1.png">
+	</head>
+	<body>
+		<header>
+			<h1>Herramientas</h1>
+		
+			<nav>
+				<a href="Inicio.html">Inicio</a>
+				<a href="celulares.html">Celulares</a>
+				<a href="cases.html">Fundas</a>
+				<a href="cargadores.html">Cargadores</a>
+				<a href="Audifonos.html">Audifonos</a>
+                <a href="Herramientas.html">Herramientas</a>
+				<a href="portatiles.html">Cargadores portatiles</a>
+				<!-- Agrega más opciones según sea necesario -->
+			</nav>
+			<div>
+				<ul>
+					<li class="submenu">
+						<img src="../imagenes/" id="img-carrito" alt="">
+						<div id="carrito">
+							<table id="lista-carrito">
+								<thead>
+									<tr>
+										<th>Imagen</th>
+										<th>Nombre</th>
+										<th>Precio</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody></tbody>
+							</table>
+							<a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="container-icon">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+					id="icono-carrito"
+				>
+					<!-- Contenido del icono... -->
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+				<div class="container-cart-products hidden-cart">
+					<div class="cart-product">
+						<div class="info-cart-product">
+							<span class="cantidad-producto-carrito">1</span>
+							<p class="titulo-producto-carrito">Funda de celular</p>
+							<span class="precio-producto-carrito">S/.15</span>
+						</div>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="icon-close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="../imgs/her1.jfif" alt="producto"/>
+				</figure>
+				<div class="info-product">
+					<h2>Kit de Desarmadores</h2>
+					<p class="price">S/.99.90</p>
+					<button class="agregar-carrito">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../imgs/her2.jfif"alt="producto"/>
+				</figure>
+				<div class="info-product">
+					<h2>Soldador</h2>
+					<p class="price">S/.60.00</p>
+					<button class="agregar-carrito">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../imgs/her3.jfif"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Condensador</h2>
+					<p class="price">S/.130.00</p>
+					<button class="agregar-carrito">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../imgs/her4.jfif"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Kit de limpieza de Celulares</h2>
+					<p class="price">S/.100.00</p>
+					<button class="agregar-carrito">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="../imgs/her5.jfif"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pinzas</h2>
+					<p class="price">S/.79.00</p>
+					<button class="agregar-carrito">Añadir al carrito</button>
+				</div>
+			</div>
+			
+		</div>
+		<script src="../js/carrito.js"></script>
+	</body>
+</html>
